@@ -12,13 +12,7 @@ import react from "./icons/react.svg";
 import bootstrap from './icons/bootstrap.svg'
 import redux from './icons/redux.svg'
 import firebase from './icons/firebase.svg'
-// import reactNativeIcon from "./icons/react-native.png";
-import nginx from "./icons/nginx.png";
-import gitIcon from "./icons/git.png";
-import githubIcon from "./icons/github.gif";
-import bitBucket from "./icons/bitbucket.png";
-import gitLab from "./icons/gitlab.png";
-import dynamoDB from "./icons/dynamoDB.png";
+
 
 //-----> SCSS
 import "./tools.scss";

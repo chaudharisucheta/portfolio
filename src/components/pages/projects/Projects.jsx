@@ -16,8 +16,7 @@ import { GitHub, VisibilitySharp } from "@material-ui/icons";
 import TodoImage from "./images/training.jpg";
 import ContactImage from "./images/contact_list.png";
 import SocialMedia from "./images/socail_media.png";
-import ChatBot from "./images/chat_bot.png";
-import SocialMedia2 from "./images/socailmedia.webp";
+
 
 //-----> SCSS
 import "./projects.scss";
