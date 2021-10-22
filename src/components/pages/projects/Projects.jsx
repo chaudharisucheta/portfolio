@@ -4,10 +4,8 @@ import React from "react";
 import {
 	Grid,
 	Card,
-	CardActions,
 	CardContent,
 	CardMedia,
-	Button,
 	Typography,
 } from "@material-ui/core";
 
