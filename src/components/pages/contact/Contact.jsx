@@ -52,7 +52,7 @@ const Contact = () => {
 						className="linkedInIcon c"
 					>
 						<img src={linkedInIcon} alt="linkedInIcon" />
-						<span>Sucheta Chaudhari</span>
+						<span><a href="https://www.linkedin.com/in/sucheta-chaudhari-54a8977a/" style={{color:"white",textDecoration:"none"}}>Sucheta Chaudhari</a></span>
 					</div>
 					<div
 						data-aos="fade-down"
