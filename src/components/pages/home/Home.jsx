@@ -7,6 +7,7 @@ import Contact from "../contact/Contact";
 import Profile from "../profile/Profile";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
+import CodeQuality from "../CodeQuality/CodeQuality";
 
 export default function Home() {
 	return (
@@ -15,8 +16,9 @@ export default function Home() {
 			<Projects />
 			<Tools />
 			<Skills />
+			<CodeQuality/>
 			<Profile />
-			<Contact />
+			{/* <Contact /> */}
 		</div>
 	);
 }

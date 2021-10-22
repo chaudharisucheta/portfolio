@@ -10,12 +10,12 @@ import {
 	Button,
 	Typography,
 } from "@material-ui/core";
-import { GitHub, VisibilitySharp } from "@material-ui/icons";
+
 
 //-----> Image's & Icon's
-import TodoImage from "./images/training.jpg";
-import ContactImage from "./images/contact_list.png";
-import SocialMedia from "./images/socail_media.png";
+import omniscape from "./images/omniscape.png";
+import traininginstitute from "./images/traininginstitute.png";
+import bakekick from "./images/bakekick.png";
 
 
 //-----> SCSS
@@ -25,20 +25,20 @@ const Projects = () => {
 	const webProjects = [
 		{
 			name: "Training Institute",
-			description:"Keep yourself updated by learning latest technologies ",
-			image: TodoImage,
+			description:"Most suitable platform for students, professionals to keep themselves up-to-date with trending courses which are provided online as well as offline.Also suitable for corporates who want to train their staff on particular technology.",
+			image: traininginstitute,
 		},
 		{
 			name: "Omniscape",
 			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			image: ContactImage,
+				"Use the map tool to click on the locations you want and claim those using tokens.You can  claim virtual real estate ,view and create 3d content on the world map and travel to VR scenes that are linked to world map content.",
+			image: omniscape,
 		},
 		{
 			name: "Bakekick",
 			description:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-			image: SocialMedia,
+				"Provides a platform for bakers to socialize and share their recipes or baking tools used by them.Also enable them to sell cakes,bread and other bakery items as well as the tools used for baking.",
+			image: bakekick,
 		},
 		
 	];
@@ -87,7 +87,7 @@ const Projects = () => {
 													{description}
 												</Typography>
 											</CardContent>
-											<CardActions className="card_buttons">
+											{/* <CardActions className="card_buttons">
 												<Button
 													variant="contained"
 													size="small"
@@ -114,7 +114,7 @@ const Projects = () => {
 												>
 													Visit
 												</Button>
-											</CardActions>
+											</CardActions> */}
 										</Card>
 									</Grid>
 								);
