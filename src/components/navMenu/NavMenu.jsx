@@ -70,7 +70,7 @@ export default function NavMenu() {
 						Tools
 					</NavLink>
 				</li>
-				<li>
+				{/* <li>
 					<NavLink
 						to="contact"
 						onClick={() => {
@@ -79,7 +79,7 @@ export default function NavMenu() {
 					>
 						Contact
 					</NavLink>
-				</li>
+				</li> */}
 				<li>
 					<NavLink
 						to="profile"
