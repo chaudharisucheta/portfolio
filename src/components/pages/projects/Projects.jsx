@@ -14,6 +14,7 @@ import {
 import omniscape from "./images/omniscape.png";
 import traininginstitute from "./images/traininginstitute.png";
 import bakekick from "./images/bakekick.png";
+import reviewmatters from "./images/reviewmatters.png";
 
 
 //-----> SCSS
@@ -37,6 +38,12 @@ const Projects = () => {
 			description:
 				"Provides a platform for bakers to socialize and share their recipes or baking tools used by them.Also enable them to sell cakes,bread and other bakery items as well as the tools used for baking.",
 			image: bakekick,
+		},
+		{
+			name: "Review Matters",
+			description:
+				"Online reviews are more widespread than ever before, because they matter to consumers and to businesses.We provide a platform to connect, communicate and respond quickly to the customers.",
+			image: reviewmatters,
 		},
 		
 	];
